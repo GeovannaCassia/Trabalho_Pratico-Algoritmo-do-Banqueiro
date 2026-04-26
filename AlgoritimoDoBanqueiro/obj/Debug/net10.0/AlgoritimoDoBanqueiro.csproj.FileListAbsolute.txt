@@ -1,0 +1,15 @@
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\bin\Debug\net10.0\AlgoritimoDoBanqueiro.exe
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\bin\Debug\net10.0\AlgoritimoDoBanqueiro.deps.json
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\bin\Debug\net10.0\AlgoritimoDoBanqueiro.runtimeconfig.json
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\bin\Debug\net10.0\AlgoritimoDoBanqueiro.dll
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\bin\Debug\net10.0\AlgoritimoDoBanqueiro.pdb
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.AssemblyInfoInputs.cache
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.AssemblyInfo.cs
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.csproj.CoreCompileInputs.cache
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.sourcelink.json
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.dll
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\refint\AlgoritimoDoBanqueiro.dll
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.pdb
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\AlgoritimoDoBanqueiro.genruntimeconfig.cache
+C:\Users\dti-\Documents\Projetos\Trabalho_Pratico-Algoritmo-do-Banqueiro\AlgoritimoDoBanqueiro\obj\Debug\net10.0\ref\AlgoritimoDoBanqueiro.dll
