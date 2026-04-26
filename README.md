@@ -19,10 +19,13 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________
 
 ▶️ Como Executar
+
 🔹 1. Clonar o repositório
 git clone https://github.com/GeovannaCassia/Trabalho_Pratico-Algoritmo-do-Banqueiro
+
 🔹 2. Acessar a pasta do projeto
 cd nome-do-projeto
+
 🔹 3. Executar o programa
 dotnet run 10 5 7
 
@@ -48,6 +51,7 @@ Para evitar condições de corrida (race conditions), foi utilizado o mecanismo 
 _________________________________________________________________________________________________________________________________________________
 
 📁 Estrutura do Projeto
+
 • Program.cs → Inicialização do sistema
 • Customer.cs → Representação dos clientes (threads)
 • Banker.cs → Implementação do algoritmo do banqueiro
