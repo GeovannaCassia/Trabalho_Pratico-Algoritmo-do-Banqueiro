@@ -36,10 +36,15 @@ Caso nenhum parâmetro seja informado, o sistema utilizará valores padrão defi
 _________________________________________________________________________________________________________________________________________________
 
 🧠 Funcionamento
+
 • Cada cliente é representado por uma thread independente
+
 • Clientes geram requisições aleatórias de recursos
+
 • O algoritmo do banqueiro verifica se a alocação mantém o sistema em estado seguro
+
 • Se o estado for seguro → os recursos são concedidos
+
 • Caso contrário → a requisição é negada
 
 _________________________________________________________________________________________________________________________________________________
@@ -53,7 +58,9 @@ ________________________________________________________________________________
 📁 Estrutura do Projeto
 
 • Program.cs → Inicialização do sistema
+
 • Customer.cs → Representação dos clientes (threads)
+
 • Banker.cs → Implementação do algoritmo do banqueiro
 
 _________________________________________________________________________________________________________________________________________________
