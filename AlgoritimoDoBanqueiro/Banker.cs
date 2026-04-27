@@ -3,14 +3,22 @@ using System.Linq;
 
 public class Banker
 {
+    // Recursos atualmente disponíveis no sistema.
     private int[] available;
+
+    // Quantidade máxima que cada cliente pode solicitar.
     private int[,] maximum;
+
+    // Recursos que já foram alocados para cada cliente.
     private int[,] allocation;
+
+    // Recursos que cada cliente ainda precisa para completar.
     private int[,] need;
 
     private int numCustomers;
     private int numResources;
 
+    // Objeto para garantir exclusão mútua entre threads.
     private readonly object _lock = new object();
 
     public Banker(int[] resources, int[,] max)
@@ -34,6 +42,7 @@ public class Banker
     {
         lock (_lock)
         {
+            // Verifica se o pedido é válido e se existem recursos disponíveis.
             for (int i = 0; i < numResources; i++)
             {
                 if (request[i] > need[customer, i])
@@ -43,6 +52,7 @@ public class Banker
                     return -1;
             }
 
+            // Reserva temporariamente os recursos.
             for (int i = 0; i < numResources; i++)
             {
                 available[i] -= request[i];
@@ -50,6 +60,7 @@ public class Banker
                 need[customer, i] -= request[i];
             }
 
+            // Testa se o novo estado ainda é seguro.
             if (IsSafe())
             {
                 PrintState($"✔ Cliente {customer} ALOCADO");
@@ -57,6 +68,7 @@ public class Banker
             }
             else
             {
+                // Se não é seguro, desfaz a alocação.
                 for (int i = 0; i < numResources; i++)
                 {
                     available[i] += request[i];
@@ -91,6 +103,7 @@ public class Banker
 
     private bool IsSafe()
     {
+        // Verifica se existe uma sequência segura de clientes que podem terminar.
         int[] work = (int[])available.Clone();
         bool[] finish = new bool[numCustomers];
 

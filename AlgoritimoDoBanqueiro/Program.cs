@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        // Se argumentos forem fornecidos, usa-os como recursos disponíveis.
         int[] resources;
 
         if (args.Length > 0)
@@ -13,7 +14,8 @@ class Program
         }
         else
         {
-            resources = new int[] { 10, 5, 7 }; 
+            // Valor padrão quando nenhum argumento é passado.
+            resources = new int[] { 10, 5, 7 };
         }
 
         int numberOfCustomers = 5;
@@ -32,6 +34,7 @@ class Program
 
         Thread[] threads = new Thread[numberOfCustomers];
 
+        // Cria uma thread para cada cliente e inicia sua execução.
         for (int i = 0; i < numberOfCustomers; i++)
         {
             Customer customer = new Customer(i, banker, numberOfResources);

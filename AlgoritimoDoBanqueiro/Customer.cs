@@ -18,6 +18,7 @@ public class Customer
 
     public void Run()
     {
+        // Loop infinito simulando o comportamento de um cliente.
         while (true)
         {
             Thread.Sleep(rand.Next(500, 1500));
@@ -43,6 +44,7 @@ public class Customer
     {
         int[] req = new int[numResources];
 
+        // Gera um pedido aleatório pequeno para cada recurso.
         for (int i = 0; i < numResources; i++)
         {
             req[i] = rand.Next(0, 3);
